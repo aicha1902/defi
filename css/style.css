@@ -39,6 +39,10 @@
 .tof:hover{
    transform: translateY(-10px);
 }
+.hov:hover{
+    cursor: pointer;
+    background-color: gray;
+}
 @media screen and (max-width: 768px){
     
     .dropdown-menu{
