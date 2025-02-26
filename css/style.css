@@ -1,0 +1,65 @@
+
+ /* *{
+    outline: 1px solid red;
+ }  */
+ .u-defi{
+    width: 400px;
+    /* max-height: 300px; */
+    margin-left: -20rem;
+     margin-top: 2rem;
+    
+}
+.land{
+    width: 400px;
+    height: 400px;
+    /* max-height: 300px; */
+    margin-left: -20rem; 
+     /* margin-top: 2rem; */
+    
+}
+.dem{
+    background-color: lightblue;
+    width: 100px;
+    margin-left: 46%;
+}
+.chiffre{
+    font-weight: 800;
+}
+.documenta:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+.tof:hover{
+    cursor: pointer;
+   transition: transform 0.3s ease-in-out;
+}
+
+.tof:hover{
+   transform: translateY(-10px);
+}
+@media screen and (max-width: 768px){
+    
+    .dropdown-menu{
+        width: 90%;
+        margin-left: 10px !important;
+        margin-right: 0 !important;
+
+    }
+    .land{
+        width: 90%;
+        margin-left: 10px !important;
+    }
+    
+    .carte img{
+        display: none;
+    }
+    .dem{
+        background-color: lightblue;
+        border-radius: 8px;
+        width: 100px;
+        color: blue;
+        margin-left: 30%;
+    }
+}
